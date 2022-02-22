@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, duplicate_ignore
+
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/components/text_field_container.dart';
 import 'package:flutter_auth/constants.dart';
@@ -16,6 +18,7 @@ class RoundedPasswordField extends StatelessWidget {
         obscureText: true,
         onChanged: onChanged,
         cursorColor: kPrimaryColor,
+        // ignore: prefer_const_constructors
         decoration: InputDecoration(
           hintText: "Password",
           icon: Icon(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_auth/Screens/app/main.dart';
+import 'package:flutter_auth/Screens/app/main1.dart';
+//import 'package:flutter_auth/Screens/app/main.dart';
 import 'package:flutter_auth/Screens/app/profile.dart';
 // ignore: unused_import
 import 'package:flutter_auth/Screens/app/news_screen.dart';
@@ -39,6 +40,7 @@ class _DrawerMenuState extends State<DrawerMenu> {
             onTap: () {
               Navigator.push(
                 context,
+                // ignore: prefer_const_constructors
                 MaterialPageRoute(builder: (context) => NewsPage()),
               );
             },

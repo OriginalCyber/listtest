@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, duplicate_ignore
+
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/constants.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -16,6 +18,7 @@ class SocalIcon extends StatelessWidget {
     return GestureDetector(
       onTap: press,
       child: Container(
+        // ignore: prefer_const_constructors
         margin: EdgeInsets.symmetric(horizontal: 10),
         padding: EdgeInsets.all(20),
         decoration: BoxDecoration(

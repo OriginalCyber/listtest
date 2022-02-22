@@ -29,7 +29,7 @@ class Body extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
+            const Text(
               "LOGIN",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
@@ -56,7 +56,7 @@ class Body extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ProfilePage(),
+                      builder: (context) => const ProfilePage(),
                     ));
               },
             ),

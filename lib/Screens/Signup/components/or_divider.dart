@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, duplicate_ignore
+
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/constants.dart';
 
@@ -11,8 +13,10 @@ class OrDivider extends StatelessWidget {
       child: Row(
         children: <Widget>[
           buildDivider(),
+          // ignore: prefer_const_constructors
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10),
+            // ignore: prefer_const_constructors
             child: Text(
               "OR",
               style: TextStyle(
